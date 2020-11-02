@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #483D8B;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="89.0" prefHeight="311.0" prefWidth="700.0" style="-fx-background-color: #FFFAFA;">
+         <children>
+            <TextField fx:id="login_field" layoutX="73.0" layoutY="69.0" prefHeight="34.0" prefWidth="555.0" promptText="Логин">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="password_field" layoutX="72.0" layoutY="131.0" prefHeight="34.0" prefWidth="555.0" promptText="Пароль">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="signin_button" layoutX="251.0" layoutY="200.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="199.0" style="-fx-background-color: #483D8B;" text="Войти" textFill="WHITE">
+               <font>
+                  <Font name="MS Outlook" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="244.0" layoutY="27.0" text="Авторизация" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="authsignup_button" layoutX="487.0" layoutY="7.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="199.0" style="-fx-background-color: #483D8B;" text="Зарегистрироваться" textFill="WHITE">
+         <font>
+            <Font name="MS Outlook" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
